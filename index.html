@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kashfy's Valentine Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="flower.png" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kashfy's Valentine Letter</title>
+  </head>
+  <body>
+    <!-- Envelope Screen -->
+    <div id="envelope-container">
+      <img src="envelope.png" alt="Envelope" id="envelope" />
+      <p>♡ Letter for Kashfy ♡</p>
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letter-container">
+      <div class="letter-window">
+        <h1 id="letter-title">Kashfyyy, will you be my Valentine?</h1>
+
+        <img src="cat_heart.gif" class="cat" id="letter-cat" />
+
+        <div class="buttons" id="letter-buttons">
+          <img src="yes.png" class="btn yes-btn" alt="Yes" />
+
+          <div class="no-wrapper">
+            <img src="no.png" class="btn no-btn" alt="No" />
+          </div>
+        </div>
+
+        <button id="final-button">
+          Open the Letter
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Letter Screen -->
+     <div id="mail-container">
+      <style>
+	/* customizable heart styling */
+	.heart {
+	  color: #800000;
+	  font-size: 2em;
+	  font-family: Arial, sans-serif;
+	  text-shadow: 0 0 5px #ffffff;
+	}
+	
+
+	@-webkit-keyframes hearts-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes hearts-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes hearts-fall{0%{top:-10%}100%{top:100%}}@keyframes hearts-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.heart{position:fixed;top:-10%;z-index:9999;-webkit-animation-name:hearts-fall,hearts-shake;animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:hearts-fall,hearts-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.heart:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.heart:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.heart:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.heart:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.heart:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.heart:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.heart:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.heart:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.heart:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.heart:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.heart:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.heart:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+	</style>
+	<div class="hearts" aria-hidden="true">
+	  <div class ="heart">
+	    &#10084;
+	  </div>
+    <div class ="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+    &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+        <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+        <div class="heart">
+      &#10084;
+    </div>
+    <div class="heart">
+      &#10084;
+    </div>
+    <div id="letter-mail">
+      <img src="letter2.png" alt="" id="mail-img">
+    </div>
+    </div>
+
+    <div id="flowers">
+      <h1 style="font-family: Pixelify Sans, sans-serif; width: 70%; font-size: 6vh;">And, as I couldn't bring you flowers this time; I'm giving you unlimited digital flowers.</h1>
+
+      <div id="flower-box">
+
+      </div>
+
+      <button id="flower-btn">Get Flowers 🌹</button>
+      <button id="flower-btn2" style="margin-top: 2vh;">Get Flowers 🌻</button>
+
+      <h1 style="font-family: Pixelify Sans, sans-serif; width: 70%; font-size: 7vh; margin-top: 8vh;">♡ And Lastly ♡</h1>
+
+      <div id="gif-box">
+        <iframe src="https://giphy.com/embed/TalpwYAqmHc5ROpZJS" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/hMKjvTYlSaFCU" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/3ov9jFA9wmNzHHRgsg" style="" frameBorder="0" class="giphy-embed"></iframe>
+        <iframe src="https://giphy.com/embed/ChTbtWsFB75oA"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/nySoGplXjK6QM"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/niCwwCRCXlvsQ"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+        <iframe src="https://giphy.com/embed/3og0ItStRaiKcYsYda"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/4zmFt0xpke8AU" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/l4FsxGFksrYwTvejS"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/l0HeqVzyiJbb7txS0"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/mbsc6aiOfmKfC"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+        <iframe src="https://giphy.com/embed/HEJOW3WMbqgRa"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/iP8Tnb7isEOUE"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/FKSBRfnID94Jy"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/nySoGplXjK6QM"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/niCwwCRCXlvsQ"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+
+        <iframe src="https://giphy.com/embed/TalpwYAqmHc5ROpZJS" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/3og0ItStRaiKcYsYda"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/4zmFt0xpke8AU" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/l4FsxGFksrYwTvejS"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/l0HeqVzyiJbb7txS0"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/mbsc6aiOfmKfC"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        <iframe src="https://giphy.com/embed/niCwwCRCXlvsQ"  style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      </div>
+
+      <h1 style="font-family: Pixelify Sans, sans-serif; width: 70%; font-size: 15vh; margin-top: 8vh; 
+  animation-name:glow;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;">♡ I Love You ♡</h1>
+    </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
