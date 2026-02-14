@@ -273,3 +273,8 @@ iframe{
     height: fit-content;
     flex-wrap: wrap;
 }
+
+@keyframes glow{
+  from{text-shadow:0px 0px 5px #940d52,0px 0px 5px #ff0051;}
+  to{text-shadow:0px 0px 20px #db006a,0px 0px 20px #ff0048;}
+}
